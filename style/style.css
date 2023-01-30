@@ -10,4 +10,54 @@ html {
   font-family: "Manrope", sans-serif;
 }
 
+body {
+  background-color: hsl(219deg, 22%, 16%);
+}
+body main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12rem 2rem 0;
+  background-color: hsl(217deg, 19%, 24%);
+  border-radius: 1rem;
+}
+body main h2 {
+  color: hsl(150deg, 100%, 66%);
+  font-size: 1.1rem;
+  letter-spacing: 0.35rem;
+  text-transform: uppercase;
+  margin: 4rem 0 2.5rem;
+}
+body main h2 .advice_num {
+  color: hsl(150deg, 100%, 66%);
+  font-size: 1.1rem;
+  letter-spacing: 0.35rem;
+}
+body main .advice_text {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: hsl(193deg, 38%, 86%);
+  text-align: center;
+  margin: 0 2.5rem;
+}
+body main .pattern_mobile {
+  margin-top: 2.5rem;
+  margin-bottom: 6.5rem;
+}
+body main .pattern_desktop {
+  display: none;
+}
+body main .generateBtn {
+  position: absolute;
+  bottom: -3.2rem;
+  left: calc(50% - 3.2rem);
+  border-radius: 50%;
+  padding: 2rem;
+  background-color: hsl(150deg, 100%, 66%);
+  border: none;
+  line-height: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
