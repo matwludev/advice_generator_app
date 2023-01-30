@@ -40,10 +40,22 @@ body main h2 {
   text-transform: uppercase;
   margin: 4rem 0 2.5rem;
 }
+@media screen and (min-width: 1440px) {
+  body main h2 {
+    font-size: 1.3rem;
+    letter-spacing: 0.4rem;
+  }
+}
 body main h2 .advice_num {
   color: hsl(150deg, 100%, 66%);
   font-size: 1.1rem;
   letter-spacing: 0.35rem;
+}
+@media screen and (min-width: 1440px) {
+  body main h2 .advice_num {
+    font-size: 1.3rem;
+    letter-spacing: 0.4rem;
+  }
 }
 body main .advice_text {
   font-size: 2.4rem;
@@ -52,12 +64,28 @@ body main .advice_text {
   text-align: center;
   margin: 0 2.5rem;
 }
+@media screen and (min-width: 1440px) {
+  body main .advice_text {
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+  }
+}
 body main .pattern_mobile {
-  margin-top: 2.5rem;
-  margin-bottom: 6.5rem;
+  margin: 2.5rem 0 6.5rem;
+}
+@media screen and (min-width: 900px) {
+  body main .pattern_mobile {
+    display: none;
+  }
 }
 body main .pattern_desktop {
   display: none;
+}
+@media screen and (min-width: 900px) {
+  body main .pattern_desktop {
+    display: block;
+    margin: 4rem 0 7.5rem;
+  }
 }
 body main .generateBtn {
   position: absolute;
