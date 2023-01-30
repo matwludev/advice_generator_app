@@ -23,6 +23,11 @@ body main {
   background-color: hsl(217deg, 19%, 24%);
   border-radius: 1rem;
 }
+@media screen and (min-width: 768px) {
+  body main {
+    margin: 18rem 20rem 0;
+  }
+}
 body main h2 {
   color: hsl(150deg, 100%, 66%);
   font-size: 1.1rem;
